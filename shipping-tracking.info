@@ -7,15 +7,15 @@
     <initial-install-p>f</initial-install-p>
     <singleton-p>f</singleton-p>
     
-    <version name="0.1d" url="http://openacs.org/repository/download/apm/shipping-tracking-0.1d.apm">
+    <version name="0.001" url="http://openacs.org/repository/download/apm/shipping-tracking-0.001.apm">
+        <owner url="mailto:tekbasse@yahoo.com">Benjamin Brink</owner>
         <owner url="http://openacs.org">OpenACS community</owner>
         <summary>Ship-Track package provides pricing estimates and tracks shipped items</summary>
-        <vendor url="http://dekka.com">Dekka Corp of Oregon</vendor>
         <description format="text/plain">Ship-Track package provides pricing estimates (include or integrate with value-based-shipping and tracks shipped items, includes handling shipping address. (may be similar to a shipping-gateway that handles multiple shipping services (3rd party as well as in-house estimating and delivery techniques)</description>
         <maturity>0</maturity>
 
-        <provides url="shipping-tracking" version="0.1d"/>
-        <requires url="accounts-ledger" version="0.1d"/>
+        <provides url="shipping-tracking" version="0.001"/>
+        <requires url="accounts-ledger" version="0.001"/>
 
         <callbacks>
         </callbacks>
